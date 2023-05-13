@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="title">Tic Tac Toe\nX - O</string>
+    <string name="o2o">Player Vs Player</string>
+    <string name="o2ce">Player Vs Computer\nEasy</string>
+    <string name="o2ch">Player Vs Computer\nHard</string>
+    <string name="space"> </string>
+</resources>
