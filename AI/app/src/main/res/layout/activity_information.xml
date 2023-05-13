@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000FF"
+    tools:context=".information">
+
+    <Button
+        android:id="@+id/Subjects"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="18dp"
+        android:text="Subjects Materials"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/GPA"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="18dp"
+        android:text="Calc GPA "
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Subjects" />
+
+    <Button
+        android:id="@+id/Gied"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="18dp"
+        android:text="لائحة الكلية"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GPA" />
+
+    <Button
+        android:id="@+id/wepsite"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="18dp"
+        android:text="FAi website "
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pay" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text=">"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994" />
+
+    <Button
+        android:id="@+id/hou"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="18dp"
+        android:text="تسجيل المواد"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Gied" />
+
+    <Button
+        android:id="@+id/mail"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="18dp"
+        android:text="الميل الجامعي"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hou" />
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="18dp"
+        android:text="النتيجة"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mail" />
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="18dp"
+        android:text="الدفع الالكتروني"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result" />
+</android.support.constraint.ConstraintLayout>

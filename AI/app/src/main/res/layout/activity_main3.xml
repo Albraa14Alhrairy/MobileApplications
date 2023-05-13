@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text=">"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994" />
+
+    <Button
+        android:id="@+id/wek"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="wikipedia"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youtube" />
+
+    <Button
+        android:id="@+id/fac"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="facebook"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/g" />
+
+    <Button
+        android:id="@+id/web"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="website"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fac" />
+
+    <Button
+        android:id="@+id/g"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="لائحة الكلية"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wek" />
+
+    <Button
+        android:id="@+id/youtube"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="youtube"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bio"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="Bio-artificial intelligence program"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/web" />
+
+</android.support.constraint.ConstraintLayout>
